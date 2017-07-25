@@ -1,0 +1,26 @@
+[color]
+    status = auto
+    diff = auto
+    ui = auto
+    branch = auto
+    interactive = auto
+[core]
+    excludesfile = /home/ec2-user/.gitexcludesfile
+    editor = vim
+[push]
+    default = current
+[user]
+    name = bot-globaldevops
+    email = devops-global.group@bbva.com
+[alias]
+    lg = log -M --decorate --graph --oneline
+    ci = commit
+    clo = clone
+    co = checkout
+    sth = stash
+    st = status
+    br = branch
+    rc = rebase --continue
+    pur = pull --rebase
+[url "ssh://git@globaldevtools.bbva.com:7999/"]
+   insteadOf = https://globaldevtools.bbva.com:7999/
